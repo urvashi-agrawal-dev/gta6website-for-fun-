@@ -1,12 +1,62 @@
-# React + Vite
+import React from "react"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎮 GTA 6 Interactive Fan Website
 
-Currently, two official plugins are available:
+This is a creative, interactive fan-made landing page for **GTA 6**, built with **React**, **Vite**, and **Tailwind CSS**. It features smooth animations, visuals, and a dynamic cursor effect where elements respond to user movement — delivering an immersive experience inspired by Rockstar-style promos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚛️ Built with **React + Vite**
+- 🎨 Styled using **Tailwind CSS**
+- 🖱️ **Mouse-based parallax animations**
+- 🖼️ High-quality GTA 6-themed images and text
+- ⚡ Fast development with **hot module reload**
+- 💻 Fully responsive and interactive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📸 Demo
+
+> 🌐 Live Preview : gta6website-for-fun.vercel.app
+
+## 🛠️ Tech Stack
+
+- **React** – JavaScript library for building UI
+- **Vite** – Lightning-fast dev environment
+- **Tailwind CSS** – Utility-first styling framework
+- **JavaScript Event Listeners** – Mouse movement effects
+
+---
+
+## 🧠 How It Works
+
+The app uses `onMouseMove` listeners to track cursor position and apply transformations to text/images, creating a live parallax/motion effect. Combined with Tailwind for responsiveness and animation utilities, it delivers a slick user experience.
+
+
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/uravshi-agrawal-dev/gta6-interactive-site.git
+cd gta6-interactive-site
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+````
+
+---
+
+## 🧾 License
+
+This is a fan-made project for educational and portfolio purposes. All game-related content and trademarks are property of Rockstar Games.
+
+---
+
+## 🙌 Acknowledgements
+
+Inspired by GTA VI fan hype and Rockstar's signature design style.
+
+Happy building! 💻🔥
